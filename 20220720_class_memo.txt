@@ -1,0 +1,23 @@
+pandas 2가지 자료형
+series : 1차원
+DataFrame : 2ckdnjs
+
+
+Series vs list
+Series 는 인덱스 정보를 가지고 있음
+인덱스 (0,1,2,3,4,...)
+날짜..
+
+series
+인덱스 지정하는 파라미터
+dat =Series ([1,2,3,4], index = ___,
+ 	    columns=[___])
+
+컬럼: "catanddong","toto","apple","gildon"
+
+# 여러개의 컬럼 지정하기
+team_df_n = team_df[[ 'category','toto' ]]
+
+# iloc , loc
+iloc는 데이터 프레임의 데이터 순서(번호)를 사용하여 데이터 추출(시작번호 : 0)
+loc[ 행, 열] 접근이라고 쉽게 생각
